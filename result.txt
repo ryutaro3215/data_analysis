@@ -1,0 +1,116 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     G3   R-squared:                       0.846
+Model:                            OLS   Adj. R-squared:                  0.828
+Method:                 Least Squares   F-statistic:                     47.21
+Date:                Wed, 13 May 2026   Prob (F-statistic):          7.20e-119
+Time:                        22:23:34   Log-Likelihood:                -791.99
+No. Observations:                 395   AIC:                             1668.
+Df Residuals:                     353   BIC:                             1835.
+Df Model:                          41                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                coef  std err       t  P>|t|  [0.025  0.975]
+15        G2  0.9573    0.053  17.907  0.000   0.852   1.062
+7     famrel  0.3569    0.114   3.127  0.002   0.132   0.581
+14        G1  0.1888    0.062   3.028  0.003   0.066   0.312
+13  absences  0.0459    0.013   3.421  0.001   0.020   0.072
+-----------------G3 and all attribution without G2-----------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     G3   R-squared:                       0.706
+Model:                            OLS   Adj. R-squared:                  0.672
+Method:                 Least Squares   F-statistic:                     21.22
+Date:                Wed, 13 May 2026   Prob (F-statistic):           1.61e-71
+Time:                        22:23:34   Log-Likelihood:                -919.63
+No. Observations:                 395   AIC:                             1921.
+Df Residuals:                     354   BIC:                             2084.
+Df Model:                          40                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                     coef  std err       t  P>|t|  [0.025  0.975]
+14             G1  1.1091    0.049  22.743  0.000   1.013   1.205
+33  schoolsup_yes  1.0399    0.439   2.371  0.018   0.177   1.902
+13       absences  0.0427    0.019   2.307  0.022   0.006   0.079
+1             age -0.2974    0.139  -2.144  0.033  -0.570  -0.025
+40   romantic_yes -0.8602    0.300  -2.870  0.004  -1.450  -0.271
+-----------------G3 and all attribution without G1 and G2-----------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     G3   R-squared:                       0.276
+Model:                            OLS   Adj. R-squared:                  0.196
+Method:                 Least Squares   F-statistic:                     3.463
+Date:                Wed, 13 May 2026   Prob (F-statistic):           3.32e-10
+Time:                        22:23:34   Log-Likelihood:                -1097.5
+No. Observations:                 395   AIC:                             2275.
+Df Residuals:                     355   BIC:                             2434.
+Df Model:                          39                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                      coef  std err      t  P>|t|  [0.025  0.975]
+0           const  14.0777    4.481  3.142  0.002   5.265  22.890
+15          sex_M   1.2624    0.500  2.525  0.012   0.279   2.246
+9           goout  -0.5937    0.225 -2.644  0.009  -1.035  -0.152
+39   romantic_yes  -1.0945    0.469 -2.332  0.020  -2.017  -0.172
+32  schoolsup_yes  -1.3506    0.667 -2.025  0.044  -2.662  -0.039
+6        failures  -1.7240    0.333 -5.179  0.000  -2.379  -1.069
+-----------------G3 and all attributes-----------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     G3   R-squared:                       0.846
+Model:                            OLS   Adj. R-squared:                  0.828
+Method:                 Least Squares   F-statistic:                     47.21
+Date:                Wed, 13 May 2026   Prob (F-statistic):          7.20e-119
+Time:                        23:08:44   Log-Likelihood:                -791.99
+No. Observations:                 395   AIC:                             1668.
+Df Residuals:                     353   BIC:                             1835.
+Df Model:                          41                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                coef  std err       t  P>|t|  [0.025  0.975]
+15        G2  0.9573    0.053  17.907  0.000   0.852   1.062
+7     famrel  0.3569    0.114   3.127  0.002   0.132   0.581
+14        G1  0.1888    0.062   3.028  0.003   0.066   0.312
+13  absences  0.0459    0.013   3.421  0.001   0.020   0.072
+
+-----------------G3 and all attributes without G2-----------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     G3   R-squared:                       0.706
+Model:                            OLS   Adj. R-squared:                  0.672
+Method:                 Least Squares   F-statistic:                     21.22
+Date:                Wed, 13 May 2026   Prob (F-statistic):           1.61e-71
+Time:                        23:08:44   Log-Likelihood:                -919.63
+No. Observations:                 395   AIC:                             1921.
+Df Residuals:                     354   BIC:                             2084.
+Df Model:                          40                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                     coef  std err       t  P>|t|  [0.025  0.975]
+14             G1  1.1091    0.049  22.743  0.000   1.013   1.205
+33  schoolsup_yes  1.0399    0.439   2.371  0.018   0.177   1.902
+13       absences  0.0427    0.019   2.307  0.022   0.006   0.079
+1             age -0.2974    0.139  -2.144  0.033  -0.570  -0.025
+40   romantic_yes -0.8602    0.300  -2.870  0.004  -1.450  -0.271
+
+-----------------G3 and all attributes without G1 and G2-----------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                     G3   R-squared:                       0.276
+Model:                            OLS   Adj. R-squared:                  0.196
+Method:                 Least Squares   F-statistic:                     3.463
+Date:                Wed, 13 May 2026   Prob (F-statistic):           3.32e-10
+Time:                        23:08:44   Log-Likelihood:                -1097.5
+No. Observations:                 395   AIC:                             2275.
+Df Residuals:                     355   BIC:                             2434.
+Df Model:                          39                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                      coef  std err      t  P>|t|  [0.025  0.975]
+0           const  14.0777    4.481  3.142  0.002   5.265  22.890
+15          sex_M   1.2624    0.500  2.525  0.012   0.279   2.246
+9           goout  -0.5937    0.225 -2.644  0.009  -1.035  -0.152
+39   romantic_yes  -1.0945    0.469 -2.332  0.020  -2.017  -0.172
+32  schoolsup_yes  -1.3506    0.667 -2.025  0.044  -2.662  -0.039
+6        failures  -1.7240    0.333 -5.179  0.000  -2.379  -1.069
+
