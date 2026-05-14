@@ -1,5 +1,5 @@
 *.md
-.venv
-student
+# .venv
+# student
 .git
-__pycache__
+# __pycache__
